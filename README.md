@@ -31,17 +31,16 @@ pip install djitellopy mediapipe opencv-python
 ```
 python main.py
 ```
-You should see a camera feed window.
 3. Perform gestures in front of the laptop camera:
 * Left arm raised ⇒ Moves drone left
 * Right arm raised ⇒ Moves drone right
 * Both arms raised for 4 seconds ⇒ Toggles takeoff/land
 * Otherwise ⇒ Hover command
-### Keyboard Commands (as implemented in main.py):
+### Keyboard Commands:
 * Press t for take off or landing.
 * Press q to quit/exit the program.
 ## Future Enhancements
-Add more gestures like forward/backward, rotate.
-Add error handling.
-Enhance reliability with confidence thresholds or additional landmark checks.
-Voice commands as a fallback or supplementary control method.
+* Add more gestures like forward/backward, rotate.
+* Add error handling.
+* Enhance reliability with confidence thresholds or additional landmark checks.
+* Voice commands as a fallback or supplementary control method.
